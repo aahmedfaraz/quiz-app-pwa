@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  background: url("https://s3.amazonaws.com/rm3.photos.prod.readmedia.com/students/5097352/cover-original/caa2654e79e2dc88c6a3c18e1a353452.jpg?1613561854");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 5px 10px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  padding-bottom: 20px !important;
+}
+
+.container::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 0 3px rgba(218, 218, 218, 0.3);
+  border-radius: 10px;
+  z-index: -1;
+  backdrop-filter: blur(5px);
+}
+
+.white-font-with-shadow {
+  text-shadow: 0 0 20px black !important;
+  color: white !important;
+}
+
+.name {
+  font-family: "PT Serif", serif !important;
+}
+
+.title {
+  font-family: "Pacifico", cursive !important;
+}
+
+.info {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  border-radius: 10px;
+  padding: 5px !important;
+}
+
+.react {
+  color: rgb(59, 216, 255) !important;
+}
+
+.typescript {
+  color: rgb(0, 140, 233) !important;
+}
+
+.spinner {
+  width: 50px;
+  display: block;
+  margin: 20px auto;
+}
+
+.score {
+  font-family: "Luckiest Guy", cursive !important;
+}
+
+.question-card {
+  background-color: white;
+  padding: 20px;
+}
+
+.option-btn {
+  display: block !important;
+  width: 100% !important;
+  margin-bottom: 10px !important;
+}
+
+.incorrect {
+  border-color: tomato !important;
+  color: tomato !important;
+}
+
+.correct {
+  border-color: limegreen !important;
+  color: limegreen !important;
+}
+
+.modal-icon {
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  margin: 1px !important;
+  color: white !important;
+  z-index: 10;
+}
+
+.modal ul {
+  margin-left: 10px;
+}
